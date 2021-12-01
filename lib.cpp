@@ -19,7 +19,7 @@ bool numeriprimi(int n, int d){
   if(d<n) {
     rest= n% d;
     if(rest !=0){
-      return numeriprimi(n, d + 1);
+      return numeriprimi(n, d:d+1);
     }else{
       return false;
     }
